@@ -4,5 +4,4 @@ int gpu_ctc(THCudaTensor *probs,
                         THIntTensor *label_sizes_ptr,
                         THIntTensor *sizes,
                         int minibatch_size,
-                        THFloatTensor *costs,
-                        int blank_label);
+                        THFloatTensor *costs);
